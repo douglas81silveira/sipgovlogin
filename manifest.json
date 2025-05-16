@@ -13,5 +13,10 @@
   ],
   "icons": {
     "48": "icons8-puzzle-48.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "sip2govbrlogin@douglas81.com"
+    }
   }
 }
