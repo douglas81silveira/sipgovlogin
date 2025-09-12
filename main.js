@@ -5,12 +5,11 @@ setTimeout(() => {
     
     const button = document.querySelector('.btn-gov-br');
 
-    if (button) {
-        button.style.display = 'block';
-        console.log('O botão .GOV.BR apareceu!');
-    } else {
+    if (!button) {
         console.log('O botão .GOV.BR não apareceu!');
+        return;
     }
-}, 500);
 
-console.log('encerrando sip2gov');
+    button.style.display = 'block';
+    console.log('O botão .GOV.BR apareceu!');
+}, 500);

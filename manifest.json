@@ -6,7 +6,7 @@
   "permissions": ["activeTab", "scripting"],
   "content_scripts": [
     {
-      "matches": ["https://ssc.prodemge.gov.br/ssc-idp-frontend", "https://ssc.prodemge.gov.br/ssc-idp-frontend/", "https://ssc.prodemge.gov.br/ssc-idp-frontend/*"],
+      "matches": ["https://ssc.prodemge.gov.br/ssc-idp-frontend/*"],
       "js": ["main.js"]
     }
   ],
