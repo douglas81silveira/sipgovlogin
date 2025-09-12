@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "SIP2 GOV.BR LOGIN",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Mostra o botão de login por meio do .gov.br no SIP2 e PCnet ",
   "permissions": ["activeTab", "scripting"],
   "content_scripts": [
