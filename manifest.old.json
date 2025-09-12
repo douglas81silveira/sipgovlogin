@@ -3,11 +3,12 @@
   "name": "SIP2 GOV.BR LOGIN",
   "version": "1.0",
   "description": "Mostra o botão de login por meio do .gov.br no SIP2 e PCnet ",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": [],
   "content_scripts": [
     {
-      "matches": ["https://ssc.prodemge.gov.br/ssc-idp-frontend", "https://ssc.prodemge.gov.br/ssc-idp-frontend/", "https://ssc.prodemge.gov.br/ssc-idp-frontend/*"],
-      "js": ["main.js"]
+      "matches": ["https://ssc.prodemge.gov.br/ssc-idp-frontend/"],
+      "js": ["main.js"],
+      "run_at": "document_idle"
     }
   ],
   "icons": {
