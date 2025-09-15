@@ -15,7 +15,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "sip2govbrlogin@douglas81.com",
+      "id": "{8b1c1a40-1c26-4f3d-b2e5-72c8e8c1f8f7}",
       "data_collection_permissions": {
         "required": ["none"]
       }
